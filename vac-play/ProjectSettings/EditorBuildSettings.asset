@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/#1 Inicio/Main.unity
+    guid: 1c57dd136074a0347b24d2dcc2624a87
+  - enabled: 1
+    path: Assets/Scenes/#1 Inicio/Explicacao inicial.unity
+    guid: 2a50a388c86200f40a553b139d0baff1
+  - enabled: 1
+    path: "Assets/Scenes/#1 Inicio/Apresenta\xE7\xE3o.unity"
+    guid: a87acc82658e6b748881a28cf52214a5
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/Escolha VIDA.unity
+    guid: 5adfe33527e35134e88f196e116481f1
+  - enabled: 1
+    path: "Assets/Scenes/#2 VIDA/MONTAGEM/Explica\xE7\xE3o Montagem.unity"
+    guid: 58a6b5c22c30d0f4990cabfb5de65349
+  - enabled: 1
+    path: "Assets/Scenes/#2 VIDA/MONTAGEM/1 - Tipo c\xE9lula.unity"
+    guid: 0b1bdcd54d691b14c9533cee1ba9221a
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/MONTAGEM/2 - Tamanho da celula.unity
+    guid: 40e249cbaf5faea4fa03195dbc815955
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/MONTAGEM/3 - Membrana Plasmatica.unity
+    guid: 01ea0b3b5bc113f40bb67305d0b14ce7
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/MONTAGEM/4 - Metabolismo.unity
+    guid: c3d8c52974330a749a6a3b305ed62092
+  - enabled: 1
+    path: "Assets/Scenes/#2 VIDA/MONTAGEM/5 - Nutri\xE7\xE3o.unity"
+    guid: 7db3050e610b2a34997bc456352adf58
+  - enabled: 1
+    path: "Assets/Scenes/#2 VIDA/MONTAGEM/6 - Reprodu\xE7\xE3o.unity"
+    guid: 7bb889874023888478d43b638f31d953
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/MONTAGEM/7 - Mecanismos de defesa.unity
+    guid: 14f57054c01145846ad8bd8387116b76
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/MONTAGEM/Mostra o organismo montado.unity
+    guid: 22045bb7e23ee504e9d9d88fd176a72b
+  - enabled: 1
+    path: "Assets/Scenes/#2 VIDA/MONTAGEM/T\xE9rmino da Montagem 1.unity"
+    guid: a97aa4689a1ce5c4987fee6520700c70
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Carregmento Corpos.unity
+    guid: 284939c258863f54195d833c2e41bc14
+  - enabled: 1
+    path: Assets/Scenes/#2 VIDA/MODELO/Organismos modelo.unity
+    guid: dc4e2c0c2678ae2429751fb85a8f8c86
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Mostra Rochoso.unity
+    guid: 988debee913bdaf40a556029e1622965
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Mostra Gasoso.unity
+    guid: d74f300ad6bbf0248863039f781dea56
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Mostra Anao.unity
+    guid: a51d7cc6eb708cf4ea65fb6f2ca68125
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Mostra Lua.unity
+    guid: 8d637cec77127f148a1b3d1a93589754
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Local/LUA.unity
+    guid: 110c31ab85fe0074d901e9960b96ca2a
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Local/GASOSO.unity
+    guid: 3418a94aedf78d14a91cb335aa1ad7a8
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Local/ANAO.unity
+    guid: 65daf607141668948aff14f2208ae598
+  - enabled: 1
+    path: Assets/Scenes/#3 corpo celeste/Local/ROCHOSO.unity
+    guid: 4174ec6b095383c43b6bf89d050f5cf6
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/Hora de testar.unity
+    guid: e76bf27c2ccfaca49b6e9c45ff2e48a7
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/Regras.unity
+    guid: 67703f98b89ddc04a864a6b6b198f308
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#1 Evento Aleatorio/01 - Quer Evento.unity
+    guid: 9bbcfc11605c4a643bf04e4627d3cf2c
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#1 Evento Aleatorio/02 - Qual evento.unity
+    guid: a779a094236e1584bb8b3cc2efb44cb8
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/1 - Quer evoluir.unity
+    guid: 42e29d86871fe2747ace9ba5403a69ff
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/2 - Quer evoluir sem ventos.unity
+    guid: 9deb417b6a98aaf48956d3d393289d8b
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/3 - evoluiu.unity
+    guid: 553deb74b1f272e4eb1b0415d6c3b126
+  - enabled: 1
+    path: "Assets/Scenes/#4 TESTAR/#2 Evolui/Carregamento de evolu\xE7\xE3o.unity"
+    guid: c0c541e495bdaeb48a00aa4424874a9a
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/Final da Evolucao Anao.unity
+    guid: 3dc5aef543698aa488efa02e7b1361cd
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/Final da Evolucao Gasoso.unity
+    guid: 5a0075c0c73e4fa48851a31c67027473
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/Final da Evolucao Lua.unity
+    guid: 1accef2437e665642a64992d760e85d2
+  - enabled: 1
+    path: Assets/Scenes/#4 TESTAR/#2 Evolui/Final da Evolucao rochoso.unity
+    guid: 4ddf5139a27b4b14a9d13d4da60ad162
+  - enabled: 1
+    path: Assets/Scenes/Final/Final - parabens.unity
+    guid: 15627b521ae444246b67fd6e85147cdf
+  - enabled: 1
+    path: Assets/Scenes/Final/Creditos.unity
+    guid: 29719417a406c324e93fe91e92ca4eaa
+  - enabled: 1
+    path: Assets/Scenes/Final/Menu.unity
+    guid: d5a362861c1f2d049b9b359a46f6097b
+  - enabled: 1
+    path: Assets/Scenes/Final/Loader.unity
+    guid: 55326041a8e0e484c92f97c833bf90a4
+  m_configObjects: {}
