@@ -1,0 +1,7 @@
+{
+  "online": "false",
+  "working_mode": "offline",
+  "homepage": "https://meu-jogo.local",
+  "output_format": "xapi",
+  "local_file_path": "Assets/logs/local_traces.json"
+}
