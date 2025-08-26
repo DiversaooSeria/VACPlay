@@ -35,12 +35,6 @@ public class XasuManager : MonoBehaviour
             IsInitialized = true;
             Debug.Log("Xasu inicializado com SUCESSO!");
 
-            // ADICIONE ISSO: Define o ator para os próximos eventos
-            //Xasu.Instance.Login("player_test_01");
-
-            // Envia o evento de inicialização utilizando a API de alto nível
-            GameObjectTracker.Instance.Interacted("mesita");
-            Debug.Log("Evento 'Game Initialized' enviado para o Xasu!");
         }
         catch (System.Exception ex)
         {

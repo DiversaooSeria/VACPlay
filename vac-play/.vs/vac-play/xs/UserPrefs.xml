@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/XasuManager.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assets/Scripts/Write and zoom.cs" Line="53" Column="70" />
-      <File FileName="Assets/XasuManager.cs" Line="34" Column="50" />
+      <File FileName="Assets/Scripts/Write and zoom.cs" Line="43" Column="14" />
+      <File FileName="Assets/Scripts/Play audio.cs" Line="31" Column="53" />
+      <File FileName="Library/PackageCache/es.e-ucm.xasu@be057b84ef/Runtime/HighLevel/GameObjectTracker.cs" Line="8" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="vac-play" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Play audio.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -20,7 +23,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9433e9aa-9552-43f9-9f65-6bf5042e5868" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/guihugo/Documents/VACPlay/vac-play/Assets/Scripts/Play audio.cs" relfile="Assets/Scripts/Play audio.cs" line="31" column="13" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
