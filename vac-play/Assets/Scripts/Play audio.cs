@@ -24,7 +24,7 @@ public class ButtonSound : MonoBehaviour
 
         try
         {
-            var statementPromise = GameObjectTracker.Instance.Interacted("botao");
+            var statementPromise = GameObjectTracker.Instance.Interacted("botao", GameObjectTracker.TrackedGameObject.GameObject);
 
             // Doing any modifications to the Statement in traceTask.Statement property is safe.
 
