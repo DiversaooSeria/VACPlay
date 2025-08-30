@@ -19,3 +19,7 @@ UserSettings/
 *.mdb
 *.opendb
 *.VC.db
+*.json
+*.log
+*.DS_store
+*/.vs
