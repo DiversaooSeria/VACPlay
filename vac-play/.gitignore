@@ -25,3 +25,13 @@ UserSettings/
 *dll
 *nupkg
 *p7s
+*.vs
+.vs/
+*.userprefs
+*.csproj
+*.sln
+*.json  # dependendo se for debug/build cache
+Library/
+Temp/
+obj/
+Build/

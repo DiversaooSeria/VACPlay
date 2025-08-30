@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Tracker/EndTutorial.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Play audio.cs" Line="31" Column="40" />
+      <File FileName="Library/PackageCache/es.e-ucm.xasu@be057b84ef/Runtime/HighLevel/GameObjectTracker.cs" />
+      <File FileName="Assets/Scripts/Tracker/StartTracker.cs" />
+      <File FileName="Assets/Scripts/Tracker/EndTutorial.cs" Line="7" Column="31" />
+      <File FileName="Assets/Scripts/ButtonAlfaChange.cs" />
+      <File FileName="Assets/Scripts/NavigatorScenes.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="vac-play" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Tracker" expanded="True" />
+                <Node name="Play audio.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="efd2a67a-cf66-45ca-913e-48332f597dcc" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
