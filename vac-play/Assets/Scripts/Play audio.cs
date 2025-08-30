@@ -24,12 +24,12 @@ public class ButtonSound : MonoBehaviour
 
         try
         {
-            var statementPromise = GameObjectTracker.Instance.Interacted("botao", GameObjectTracker.TrackedGameObject.GameObject);
+            //var statementPromise = GameObjectTracker.Instance.Interacted("botao", GameObjectTracker.TrackedGameObject.GameObject);
 
             // Doing any modifications to the Statement in traceTask.Statement property is safe.
 
-            var statement = statementPromise.Promise;
-            Debug.Log("Completed statement sent with id: " + statementPromise.Statement.id);
+            //var statement = statementPromise.Promise;
+            //Debug.Log("Completed statement sent with id: " + statementPromise.Statement.id);
         }
         catch (AggregateException aggEx)
         {

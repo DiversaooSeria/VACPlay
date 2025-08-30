@@ -34,6 +34,7 @@ public class XasuManager : MonoBehaviour
         try
         {
             await XasuTracker.Instance.Init();
+
             IsInitialized = true;
             Debug.Log("Xasu inicializado com SUCESSO!");
 
@@ -51,20 +52,20 @@ public class XasuManager : MonoBehaviour
     private async Task SendExampleStatement()
     {
         var actor = new Agent();
-        actor.mbox = "mailto:info@tincanapi.com";
+        actor.name = "Guilherme";
 
-        var verb = new Verb();
-        verb.id = new Uri("http://adlnet.gov/expapi/verbs/experienced");
-        verb.display = new LanguageMap();
-        verb.display.Add("en-US", "experienced");
+        //var verb = new Verb();
+        //verb.id = new Uri("http://adlnet.gov/expapi/verbs/experienced");
+        //verb.display = new LanguageMap();
+        //verb.display.Add("en-US", "experienced");
 
-        var activity = new Activity();
-        activity.id = "http://rusticisoftware.github.io/TinCan.NET";
+        //var activity = new Activity();
+        //activity.id = "http://rusticisoftware.github.io/TinCan.NET";
 
         var statement = new Statement();
         statement.actor = actor;
-        statement.verb = verb;
-        statement.target = activity;
+        //statement.verb = verb;
+        //statement.target = activity;
 
         await XasuTracker.Instance.Enqueue(statement);
         Debug.Log($"Statement {statement.id} enviado com sucesso!");

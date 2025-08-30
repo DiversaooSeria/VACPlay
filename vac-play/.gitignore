@@ -1,0 +1,37 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*log
+*.vsidx
+*vs
+*dll
+*nupkg
+*p7s
+*.vs
+.vs/
+*.userprefs
+*.csproj
+*.sln
+*.json  # dependendo se for debug/build cache
+Library/
+Temp/
+obj/
+Build/
