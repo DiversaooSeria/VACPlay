@@ -57,3 +57,4 @@ crash/
 *.exe
 *.nupkg
 *.p7s
+*.vs/
