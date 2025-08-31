@@ -79,7 +79,7 @@ public class XasuManager : MonoBehaviour
             Debug.Log("Finalizando o Xasu e salvando os logs...");
             XasuTracker.Instance.Finalize().Wait();
 
-            string logPath = "/Users/guihugo/Library/Application Support/DefaultCompany/Destino Cosmico/traces.log";
+            string logPath = Path.Combine(Application.persistentDataPath, "traces.log");
             
             Debug.Log(File.Exists(logPath) ? $"Log encontrado em: {logPath}" : "Log não encontrado.");
 
@@ -88,7 +88,7 @@ public class XasuManager : MonoBehaviour
                 var s3Writer = new S3LogWriter("USER", "KEY", Amazon.RegionEndpoint.USEast2);
                 await s3Writer.UploadFileAsync(logPath, $"log_{System.DateTime.UtcNow:yyyyMMdd_HHmmss}.json");
 
-                //File.Delete(logPath);
+                File.Delete(logPath);
             }
 
             Debug.Log("Xasu finalizado e log enviado para S3.");
