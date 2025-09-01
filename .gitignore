@@ -20,3 +20,4 @@ UserSettings/
 *.opendb
 *.VC.db
 *log
+*.vsidx
