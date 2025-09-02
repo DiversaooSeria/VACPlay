@@ -1,10 +1,16 @@
-# Unity
+# Unity generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# User settings
 UserSettings/
+
+# Unity auto-generated files
 *.csproj
 *.unityproj
 *.sln
@@ -19,9 +25,36 @@ UserSettings/
 *.mdb
 *.opendb
 *.VC.db
-*log
+*.pidb.meta
+
+# OS generated files (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Icon files
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Crash reports
+crash/
+
+# IDEs
+.vscode/
+.idea/
+*.sln.iml
+
+# Logs
+*.log
 *.vsidx
-*vs
-*dll
-*nupkg
-*p7s
+
+# Compiled binaries
+*.dll
+*.exe
+*.nupkg
+*.p7s
+*.vs/

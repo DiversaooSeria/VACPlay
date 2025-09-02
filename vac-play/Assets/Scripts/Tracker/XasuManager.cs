@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Xasu;
 using Xasu.HighLevel;
 using TinCan;
+using System.IO;
 
 public class XasuManager : MonoBehaviour
 {
@@ -71,13 +72,27 @@ public class XasuManager : MonoBehaviour
         Debug.Log($"Statement {statement.id} enviado com sucesso!");
     }
 
-    private async void OnApplicationQuit()
+    private async Task OnApplicationQuit()
     {
         if (IsInitialized)
         {
             Debug.Log("Finalizando o Xasu e salvando os logs...");
-            await XasuTracker.Instance.Finalize();
-            Debug.Log("Xasu finalizado.");
+            XasuTracker.Instance.Finalize().Wait();
+
+            string logPath = Path.Combine(Application.persistentDataPath, "traces.log");
+            
+            Debug.Log(File.Exists(logPath) ? $"Log encontrado em: {logPath}" : "Log não encontrado.");
+
+            if (File.Exists(logPath))
+            {
+                var s3Writer = new S3LogWriter("USER", "KEY", Amazon.RegionEndpoint.USEast2);
+                await s3Writer.UploadFileAsync(logPath, $"log_{System.DateTime.UtcNow:yyyyMMdd_HHmmss}.json");
+
+                File.Delete(logPath);
+            }
+
+            Debug.Log("Xasu finalizado e log enviado para S3.");
         }
     }
+
 }
