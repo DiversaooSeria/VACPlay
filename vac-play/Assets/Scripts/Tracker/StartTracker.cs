@@ -8,16 +8,14 @@ public class StartTracker : MonoBehaviour
 {
     void Start()
     {
-        // Inicia uma coroutine para esperar um pouco antes de enviar
         StartCoroutine(InitTracker());
     }
 
     IEnumerator InitTracker()
     {
-        // Espera até que o tracker esteja pronto
         while (XasuManager.Instance == null || !XasuManager.Instance.IsInitialized)
         {
-            yield return null; // espera 1 frame
+            yield return null;
         }
 
         try

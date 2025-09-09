@@ -5,11 +5,15 @@ using Xasu;
 using Xasu.HighLevel;
 using TinCan;
 using System.IO;
+using System.IO.Enumeration;
 
 public class XasuManager : MonoBehaviour
 {
     public static XasuManager Instance { get; private set; }
     public bool IsInitialized { get; private set; } = false;
+
+    public LeitorDeInput leitorDeInput;
+    public MongoManager mongoManager;
 
     private void Awake()
     {
@@ -22,6 +26,9 @@ public class XasuManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        leitorDeInput = FindObjectOfType<LeitorDeInput>();
+        mongoManager = FindObjectOfType<MongoManager>();
     }
 
     private void Start()
@@ -39,7 +46,6 @@ public class XasuManager : MonoBehaviour
             IsInitialized = true;
             Debug.Log("Xasu inicializado com SUCESSO!");
 
-            // Envia um exemplo de statement após inicializar
             await SendExampleStatement();
 
         }
@@ -85,8 +91,11 @@ public class XasuManager : MonoBehaviour
 
             if (File.Exists(logPath))
             {
-                var s3Writer = new S3LogWriter("USER", "KEY", Amazon.RegionEndpoint.USEast2);
-                await s3Writer.UploadFileAsync(logPath, $"log_{System.DateTime.UtcNow:yyyyMMdd_HHmmss}.json");
+                var s3Writer = new S3LogWriter("AKIAVVZPCIPVER5Z3XWL", "", Amazon.RegionEndpoint.USEast2);
+                string fileName = $"log_{System.DateTime.UtcNow:yyyyMMdd_HHmmss}.json";
+                await s3Writer.UploadFileAsync(logPath, fileName);
+
+                mongoManager.UpdateLogPath(leitorDeInput.ultimoDocumentoId, fileName);
 
                 File.Delete(logPath);
             }
