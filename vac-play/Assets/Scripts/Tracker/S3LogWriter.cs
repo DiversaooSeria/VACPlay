@@ -19,7 +19,6 @@ public class S3LogWriter
     {
         try
         {
-            Debug.Log("📤 Iniciando upload para S3...");
 
             var putRequest = new PutObjectRequest
             {
@@ -28,15 +27,14 @@ public class S3LogWriter
                 FilePath = filePath
             };
 
-            Debug.Log($"➡️ Enviando {filePath} para s3://{bucketName}/{keyPrefix}{fileName}");
 
             var response = await s3Client.PutObjectAsync(putRequest);
 
-            Debug.Log($"✅ Log enviado para S3 em {bucketName}/{keyPrefix}{fileName} - Status: {response.HttpStatusCode}");
+            Debug.Log($"Log enviado para S3 em {bucketName}/{keyPrefix}{fileName} - Status: {response.HttpStatusCode}");
         }
         catch (System.Exception ex)
         {
-            Debug.LogError($"❌ Falha ao enviar log para S3: {ex.Message}\n{ex.StackTrace}");
+            Debug.LogError($"Falha ao enviar log para S3: {ex.Message}\n{ex.StackTrace}");
         }
     }
 
