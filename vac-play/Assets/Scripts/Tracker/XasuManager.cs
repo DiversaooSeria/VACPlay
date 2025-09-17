@@ -91,7 +91,7 @@ public class XasuManager : MonoBehaviour
 
             if (File.Exists(logPath))
             {
-                var s3Writer = new S3LogWriter("AKIAVVZPCIPVER5Z3XWL", "", Amazon.RegionEndpoint.USEast2);
+                var s3Writer = new S3LogWriter("AKIAVVZPCIPVER5Z3XWL", "PASSWORD", Amazon.RegionEndpoint.USEast2);
                 string fileName = $"log_{System.DateTime.UtcNow:yyyyMMdd_HHmmss}.json";
                 await s3Writer.UploadFileAsync(logPath, fileName);
 

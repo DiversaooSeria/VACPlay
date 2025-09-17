@@ -8,7 +8,7 @@ public class MongoManager : MonoBehaviour
 
     void Awake()
     {
-        string connectionString = "mongodb+srv://destinoCosmico:@cluster0.8tqbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+        string connectionString = "mongodb+srv://destinoCosmico:PASSWORD@cluster0.8tqbe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
         var client = new MongoClient(connectionString);
         var database = client.GetDatabase("destino_cosmico");
         collection = database.GetCollection<BsonDocument>("user_profile");
