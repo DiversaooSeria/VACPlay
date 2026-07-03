@@ -11,6 +11,9 @@ public class LeitorDeInput : MonoBehaviour
     [HideInInspector]
     public ObjectId ultimoDocumentoId;
 
+    [HideInInspector]
+    public string ultimoTextoDigitado;
+
     public void Awake()
     {
         DontDestroyOnLoad(gameObject);
@@ -27,5 +30,6 @@ public class LeitorDeInput : MonoBehaviour
             { "Data", BsonDateTime.Create(System.DateTime.UtcNow) } 
         };
         ultimoDocumentoId = mongoManager.Insert(documento);
+        ultimoTextoDigitado = textoDigitado;
     }
 }
