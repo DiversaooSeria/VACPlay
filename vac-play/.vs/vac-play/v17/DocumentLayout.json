@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\send to chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\send to chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|c:\\users\\guihu\\documents\\vacplay\\vac-play\\assets\\scripts\\getvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\getvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|c:\\users\\guihu\\documents\\vacplay\\vac-play\\assets\\samples\\openai unity\\0.1.15\\chatgpt\\chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\samples\\openai unity\\0.1.15\\chatgpt\\chatgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|c:\\users\\guihu\\documents\\vacplay\\vac-play\\assets\\scripts\\tracker\\xasumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\xasumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\objectchoosed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\objectchoosed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\gameobjecttrackerexternsions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\gameobjecttrackerexternsions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\sendtrackerlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\sendtrackerlocal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\escolhaorganismo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\escolhaorganismo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\endtutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\endtutorial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\starttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\starttracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\tracker\\objectinteracted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tracker\\objectinteracted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\scripts\\write and zoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\write and zoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\setfinaltext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\setfinaltext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\assets\\setevolutiontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E745AFE0-6409-7F0C-11FC-BA0F342BDAAE}|Assembly-CSharp.csproj|solutionrelative:assets\\setevolutiontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -17,7 +74,187 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetVariables.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\GetVariables.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GetVariables.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\GetVariables.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GetVariables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:23:10.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatGPT.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Samples\\OpenAI Unity\\0.1.15\\ChatGPT\\ChatGPT.cs",
+              "RelativeDocumentMoniker": "Assets\\Samples\\OpenAI Unity\\0.1.15\\ChatGPT\\ChatGPT.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Samples\\OpenAI Unity\\0.1.15\\ChatGPT\\ChatGPT.cs",
+              "RelativeToolTip": "Assets\\Samples\\OpenAI Unity\\0.1.15\\ChatGPT\\ChatGPT.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-02T17:23:01.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XasuManager.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\XasuManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\XasuManager.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\XasuManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\XasuManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T03:03:10.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StartTracker.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\StartTracker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\StartTracker.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\StartTracker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\StartTracker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T03:03:07.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EscolhaOrganismo.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\EscolhaOrganismo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\EscolhaOrganismo.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\EscolhaOrganismo.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\EscolhaOrganismo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-03T03:02:27.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Send to chatgpt.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Send to chatgpt.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Send to chatgpt.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Send to chatgpt.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\Send to chatgpt.cs*",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwGEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:02:03.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ObjectChoosed.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\ObjectChoosed.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\ObjectChoosed.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\ObjectChoosed.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\ObjectChoosed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T20:34:10.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameObjectTrackerExternsions.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\GameObjectTrackerExternsions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\GameObjectTrackerExternsions.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\GameObjectTrackerExternsions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\GameObjectTrackerExternsions.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwDEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T19:14:32.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EndTutorial.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\EndTutorial.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\EndTutorial.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\EndTutorial.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\EndTutorial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T18:55:59.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SendTrackerLocal.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\SendTrackerLocal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\SendTrackerLocal.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\SendTrackerLocal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\SendTrackerLocal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T18:10:25.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SetEvolutionText.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\SetEvolutionText.cs",
+              "RelativeDocumentMoniker": "Assets\\SetEvolutionText.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\SetEvolutionText.cs",
+              "RelativeToolTip": "Assets\\SetEvolutionText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:03:11.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ObjectInteracted.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\ObjectInteracted.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Tracker\\ObjectInteracted.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Tracker\\ObjectInteracted.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Tracker\\ObjectInteracted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-12T18:39:11.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SetFinalText.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\SetFinalText.cs",
+              "RelativeDocumentMoniker": "Assets\\SetFinalText.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\SetFinalText.cs",
+              "RelativeToolTip": "Assets\\SetFinalText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:03:14.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Write and zoom.cs",
+              "DocumentMoniker": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Write and zoom.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Write and zoom.cs",
+              "ToolTip": "C:\\Users\\guihu\\Documents\\VACPlay\\vac-play\\Assets\\Scripts\\Write and zoom.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Write and zoom.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T19:03:19.379Z"
             }
           ]
         }

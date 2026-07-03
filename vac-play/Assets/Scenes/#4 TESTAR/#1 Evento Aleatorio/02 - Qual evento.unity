@@ -891,6 +891,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637789258}
   m_CullTransparentMesh: 1
+--- !u!1 &673109866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 673109868}
+  - component: {fileID: 673109867}
+  m_Layer: 0
+  m_Name: Tracker Choose Vulcao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &673109867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673109866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: vulcao
+  objectName: Eventos Atividade Vulcanica
+  objectDescription: O Jogador escolheu testar seu organismo com atividade vulcanica
+  objectType: 3
+--- !u!4 &673109868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673109866}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &684509499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 684509501}
+  - component: {fileID: 684509500}
+  m_Layer: 0
+  m_Name: Tracker Choose Sonda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &684509500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684509499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: sonda
+  objectName: Eventos Sonda Espacial
+  objectDescription: O Jogador escolheu testar seu organismo com eventos de chegada
+    de sonda espacial
+  objectType: 3
+--- !u!4 &684509501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684509499}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &728345994
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,6 +1063,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 728345994}
   m_CullTransparentMesh: 1
+--- !u!1 &882754321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 882754323}
+  - component: {fileID: 882754322}
+  m_Layer: 0
+  m_Name: Tracker Choose Contaminacao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &882754322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882754321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: contaminacao
+  objectName: Eventos Contaminacao
+  objectDescription: "O Jogador escolheu testar seu organismo com eventos de contamina\xE7ao
+    do local"
+  objectType: 3
+--- !u!4 &882754323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 882754321}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960564953
 GameObject:
   m_ObjectHideFlags: 0
@@ -1479,6 +1625,18 @@ MonoBehaviour:
           m_StringArgument: chegada de sonda espacial
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 684509500}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1532409585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,6 +1807,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: "contamina\xE7\xE3o do local"
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 882754322}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1652615626
@@ -2225,6 +2395,18 @@ MonoBehaviour:
           m_StringArgument: impacto de meteoro
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2126165154}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1740687476
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2663,6 +2845,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: atividade vulcanica
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 882754322}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1830559076
@@ -3218,9 +3412,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2108203623}
   m_CullTransparentMesh: 1
+--- !u!1 &2126165153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2126165155}
+  - component: {fileID: 2126165154}
+  m_Layer: 0
+  m_Name: Tracker Choose Meteoro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2126165154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126165153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: meteoro
+  objectName: Eventos Meteoro
+  objectDescription: O Jogador escolheu testar seu organismo com eventos de impacto
+    de meteoro
+  objectType: 3
+--- !u!4 &2126165155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126165153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 2009427340}
+  - {fileID: 2126165155}
+  - {fileID: 882754323}
+  - {fileID: 673109868}
+  - {fileID: 684509501}

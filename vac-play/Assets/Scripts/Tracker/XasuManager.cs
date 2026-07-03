@@ -59,20 +59,13 @@ public class XasuManager : MonoBehaviour
     private async Task SendExampleStatement()
     {
         var actor = new Agent();
-        actor.name = "Guilherme";
-
-        //var verb = new Verb();
-        //verb.id = new Uri("http://adlnet.gov/expapi/verbs/experienced");
-        //verb.display = new LanguageMap();
-        //verb.display.Add("en-US", "experienced");
-
-        //var activity = new Activity();
-        //activity.id = "http://rusticisoftware.github.io/TinCan.NET";
+        var nome = !string.IsNullOrEmpty(leitorDeInput?.ultimoTextoDigitado)
+            ? leitorDeInput.ultimoTextoDigitado
+            : "Usuário";
+        actor.name = nome;
 
         var statement = new Statement();
         statement.actor = actor;
-        //statement.verb = verb;
-        //statement.target = activity;
 
         await XasuTracker.Instance.Enqueue(statement);
         Debug.Log($"Statement {statement.id} enviado com sucesso!");

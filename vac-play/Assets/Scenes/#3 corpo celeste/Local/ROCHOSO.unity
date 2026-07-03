@@ -391,6 +391,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48849529}
   m_CullTransparentMesh: 1
+--- !u!1 &142328517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 142328519}
+  - component: {fileID: 142328518}
+  m_Layer: 0
+  m_Name: Tracker Choose Subsolo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &142328518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142328517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: subsolo
+  objectName: Teste subsolo
+  objectDescription: O Jogador escolheu testar seu organismo em subsolo
+  objectType: 3
+--- !u!4 &142328519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142328517}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &309903040
 GameObject:
   m_ObjectHideFlags: 0
@@ -869,7 +917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.038000003, y: 0.046000004}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -20.78601, y: -11.937027}
+  m_AnchoredPosition: {x: -20.78601, y: -11.937012}
   m_SizeDelta: {x: 41.572, y: 23.874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586225053
@@ -910,6 +958,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586225051}
   m_CullTransparentMesh: 1
+--- !u!1 &900807546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900807548}
+  - component: {fileID: 900807547}
+  m_Layer: 0
+  m_Name: Tracker Choose Montanhas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &900807547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900807546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: montanha
+  objectName: Teste montanha
+  objectDescription: O Jogador escolheu testar seu organismo em montanhas
+  objectType: 3
+--- !u!4 &900807548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900807546}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &928481944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1314,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: crateras
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1670036196}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &978969351
@@ -1688,6 +1796,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540284660}
   m_CullTransparentMesh: 1
+--- !u!1 &1556357373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1556357375}
+  - component: {fileID: 1556357374}
+  m_Layer: 0
+  m_Name: Tracker Choose Deserto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1556357374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556357373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: deserto
+  objectName: Teste deserto
+  objectDescription: O Jogador escolheu testar seu organismo em deserto
+  objectType: 3
+--- !u!4 &1556357375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556357373}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1663843225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1978,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1663843225}
   m_CullTransparentMesh: 1
+--- !u!1 &1670036195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1670036197}
+  - component: {fileID: 1670036196}
+  m_Layer: 0
+  m_Name: Tracker Choose Crateras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1670036196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670036195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: crateras
+  objectName: Teste crateras
+  objectDescription: O Jogador escolheu testar seu organismo em crateras
+  objectType: 3
+--- !u!4 &1670036197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670036195}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1698172330
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,6 +2236,18 @@ MonoBehaviour:
           m_StringArgument: subsolo
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 142328518}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1713368724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2204,6 +2420,18 @@ MonoBehaviour:
           m_StringArgument: vales
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2139574277}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1824758359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2254,6 +2482,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c751d838119644b8d0262ec241c3b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1869512673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1869512675}
+  - component: {fileID: 1869512674}
+  m_Layer: 0
+  m_Name: Tracker Choose Vulcoes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1869512674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869512673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: vulcoes
+  objectName: "vulc\xF5es"
+  objectDescription: "O Jogador escolheu testar seu organismo em vulc\xF5es"
+  objectType: 3
+--- !u!4 &1869512675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869512673}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1870663137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,6 +2737,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: deserto
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1556357374}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1874493095
@@ -2710,6 +2998,18 @@ MonoBehaviour:
           m_StringArgument: "vulc\xF5es"
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1869512674}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1987243579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2938,6 +3238,18 @@ MonoBehaviour:
           m_StringArgument: montanhas
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 900807547}
+        m_TargetAssemblyTypeName: ObjectChoosed, Assembly-CSharp
+        m_MethodName: Choosed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2039544686
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3090,9 +3402,63 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &2139574276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2139574278}
+  - component: {fileID: 2139574277}
+  m_Layer: 0
+  m_Name: Tracker Choose Vales
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2139574277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139574276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d14e23b0afe1e44ba603bc8a3ced15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectId: vales
+  objectName: Teste vales
+  objectDescription: O Jogador escolheu testar seu organismo em vales
+  objectType: 3
+--- !u!4 &2139574278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139574276}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 391.2319, y: 343.63968, z: -3.0219746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 2009427340}
+  - {fileID: 2139574278}
+  - {fileID: 1670036197}
+  - {fileID: 900807548}
+  - {fileID: 1556357375}
+  - {fileID: 1869512675}
+  - {fileID: 142328519}
